@@ -54,8 +54,6 @@ footer {
   color: white;
   text-align: center;
   padding: 20px;
-}
-
 
 /* NAV */
 .nav-links {
@@ -110,3 +108,7 @@ footer {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+  
+}
+
+
