@@ -14,17 +14,20 @@ body {
 /* NAV */
 .nav {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  padding: 15px 0;
 }
 
 .nav img {
-  height: 60px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
 }
+
 
 /* NAV LINKS */
 .nav-links {
+  
   display: flex;
   align-items: center;
   gap: 20px;
@@ -39,6 +42,10 @@ body {
 
 .nav-links a:hover {
   color: #2f66b0;
+}
+
+.nav-links{
+  margin-top:10px;
 }
 
 /* BUTTON */
